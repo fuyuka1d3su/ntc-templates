@@ -1,0 +1,9 @@
+Value Filldown,Required INTERFACE (\S+)
+Value Filldown,Required INTERFACE_TYPE (\S+)
+Value IP_ADDRESS (\S+)
+Value IP_ADDR_CIDR (\S+)
+
+Start
+  ^interface ${INTERFACE_TYPE} ${INTERFACE}
+  ^\s+ip address ${IP_ADDRESS} ${IP_ADDR_CIDR} -> Record
+  ^! -> Clearall

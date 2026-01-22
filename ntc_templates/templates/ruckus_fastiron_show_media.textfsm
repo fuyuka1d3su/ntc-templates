@@ -1,0 +1,8 @@
+Value Required SPEED (\S+)
+Value MEDIA ([A-Za-z0-9\- ]+)
+Value HW_TYPE_GENERIC ([A-Za-z0-9\+\-]+)
+
+Start
+  ^Port\s+\S+:\s+Type\s+:\s+EMPTY -> Record
+
+  ^Port\s+\S+:\s+Type\s+:\s+${SPEED}\s+${MEDIA}\s+\(${HW_TYPE_GENERIC}\) -> Record
