@@ -961,11 +961,22 @@ paloalto_panos_show_jobs_all.textfsm, .*, paloalto_panos, sh[[ow]] jo[[bs]] all
 paloalto_panos_show_arp_all.textfsm, .*, paloalto_panos, sh[[ow]] ar[[p]] all
 paloalto_panos_show_mac_all.textfsm, .*, paloalto_panos, sh[[ow]] mac all
 
-ruckus_fastiron_show_interfaces_brief.textfsm, .*, ruckus_fastiron, sh[[ow]] int[[erfaces]] b[[rief]]
-ruckus_fastiron_show_media_validation.textfsm, .*, ruckus_fastiron, sh[[ow]] med[[ia]] v[[alidation]]
-ruckus_fastiron_show_mac-address.textfsm, .*, ruckus_fastiron, sh[[ow]] mac[[-address]]
-ruckus_fastiron_show_interfaces.textfsm, .*, ruckus_fastiron, sh[[ow]] int[[erfaces]]
+ruckus_fastiron_show_lldp_neighbors_detail.textfsm, .*, ruckus_fastiron, sh[[ow]] ll[[dp]] n[[eighbors]] d[[etail]]
+ruckus_fastiron_show_running-config_vlan.textfsm, .*, ruckus_fastiron, sh[[ow]] ru[[nning-config]] v[[lan]]
+ruckus_fastiron_show_running-config_interface.textfsm, .*, ruckus_fastiron, sh[[ow]] ru[[nning-config]] i[[nterface]]
+ruckus_fastiron_show_interfaces_brief.textfsm, .*, ruckus_fastiron, sh[[ow]] in[[terfaces]] b[[rief]]
+ruckus_fastiron_show_lldp_neighbors.textfsm, .*, ruckus_fastiron, sh[[ow]] ll[[dp]] n[[eighbors]]
+ruckus_fastiron_show_mac-address.textfsm, .*, ruckus_fastiron, sh[[ow]] ma[[c-address]]
+ruckus_fastiron_show_interfaces.textfsm, .*, ruckus_fastiron, sh[[ow]] in[[terfaces]]
+ruckus_fastiron_show_lag_brief.textfsm, .*, ruckus_fastiron, sh[[ow]] la[[g]] b[[rief]]
+ruckus_fastiron_show_monitor.textfsm, .*, ruckus_fastiron, sh[[ow]] mo[[nitor]]
 ruckus_fastiron_show_version.textfsm, .*, ruckus_fastiron, sh[[ow]] ve[[rsion]]
+ruckus_fastiron_show_media.textfsm, .*, ruckus_fastiron, sh[[ow]] med[[ia]]
+ruckus_fastiron_show_metro.textfsm, .*, ruckus_fastiron, sh[[ow]] met[[ro-ring]]
+ruckus_fastiron_show_trunk.textfsm, .*, ruckus_fastiron, sh[[ow]] tru[[nk]]
+ruckus_fastiron_show_span.textfsm, .*, ruckus_fastiron, sh[[ow]] sp[[an]]
+ruckus_fastiron_show_topo.textfsm, .*, ruckus_fastiron, sh[[ow]] to[[pology-group]]
+ruckus_fastiron_show_media_validation.textfsm, .*, ruckus_fastiron, sh[[ow]] med[[ia]] v[[alidation]]
 ruckus_fastiron_show_vlan.textfsm, .*, ruckus_fastiron, sh[[ow]] vlan
 ruckus_fastiron_show_arp.textfsm, .*, ruckus_fastiron, sh[[ow]] ar[[p]]
 
