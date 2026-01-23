@@ -5,5 +5,4 @@ Value HW_TYPE_GENERIC ([A-Za-z0-9\+\-]+)
 
 Start
   ^Port\s+${PORT}:\s+Type\s+:\s+EMPTY -> Record
-
   ^Port\s+${PORT}:\s+Type\s+:\s+${SPEED}\s+${MEDIA}\s+\(${HW_TYPE_GENERIC}\) -> Record
